@@ -1,18 +1,3 @@
-# Python cache fayllar
+.venv/
 __pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environment
-env/
-venv/
-
-# MacOS system fayllar
-.DS_Store
-
-# IDE fayllar
-.vscode/
-.idea/
-
-# Logs
-*.log
+*.pyc
