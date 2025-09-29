@@ -8,10 +8,10 @@ import logging
 from handler import user_router
 
 
-dp = Dispatcher ()
+dp = Dispatcher()
 
 async def main():
-    bot = Bot(env.str("TOKEN" ))
+    bot = Bot(env.str("TOKEN"))
     dp.include_router(user_router)
     await dp.start_polling(bot)
     
